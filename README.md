@@ -1,1 +1,2 @@
 # Pcam_Deep_Learning
+In this project I built my own custom deep learning framework as part of a class and tested its ability by creating mutiple different CNN architectures to predict whether cancer is metastatic or not based off of images of biopsied lymph node tissue sourced from here: https://github.com/basveeling/pcam?tab=readme-ov-file#patchcamelyon-pcam. The file Layer.py was not written by me and I also take no credit for the generation or storage of the data used in this project, all other portions of the project however were created solely by me.
