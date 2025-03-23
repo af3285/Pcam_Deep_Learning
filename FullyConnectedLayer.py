@@ -46,7 +46,6 @@ class FullyConnectedLayer(Layer):
         return gradX
 
     def updateWeights(self, dJdH, LR):
-        #Taken from lecture slides
         N = dJdH.shape[0]
         gradW = (self.previous_input.T @ dJdH) / N
         gradB = np.sum(dJdH, axis=0) / N  
